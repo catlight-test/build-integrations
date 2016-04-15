@@ -1,2 +1,7 @@
 language: csharp
-solution: CS-Successful/CS-Successful.sln
+env:
+  - SLN=CS-Successful/CS-Successful.sln
+  - SLN=CS-Failed/CS-Failed.sln
+  
+solution: $SLN
+
