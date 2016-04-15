@@ -10,5 +10,6 @@ install:
   - nuget install NUnit.Runners -Version 3.2.0 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Debug $PROJECT/$PROJECT.sln
+  - chmod +x ./run-tests.sh 
   - ./run-tests.sh $PROJECT
 
