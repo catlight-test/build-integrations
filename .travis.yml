@@ -1,2 +1,2 @@
 language: csharp
-solution: MsTest-successful-tests/MsTest-successful-tests.sln
+solution: CS-Successful/CS-Successful.sln
