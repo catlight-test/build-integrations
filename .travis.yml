@@ -10,5 +10,5 @@ install:
   - nuget install NUnit.Runners -Version 3.2.0 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Debug $PROJECT/$PROJECT.sln
-  - mono ./testrunner/NUnit.Runners.3.2.0/tools/nunit-console.exe ./$PROJECT/bin/Debug/$PROJECT.exe
+  - ./run-tests.sh $PROJECT
 
