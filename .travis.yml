@@ -1,7 +1,6 @@
 language: csharp
 env:
-  - PROJECT=CS-Successful
-  - PROJECT=CS-Failed
+  - PROJECT=CS-Successful  
   - PROJECT=NUnit-CS-Success
   
 solution: $PROJECT/$PROJECT.sln
