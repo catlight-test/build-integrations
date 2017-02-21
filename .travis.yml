@@ -1,14 +1,14 @@
 language: csharp
 env:
-  - PROJECT=CS-Successful
-  - PROJECT=CS-Failed
+  - PROJECT=CS-Successful  
   - PROJECT=NUnit-CS-Success
   
 solution: $PROJECT/$PROJECT.sln
 install:
   - nuget restore $PROJECT/$PROJECT.sln
-  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
+  - nuget install NUnit.Runners -Version 3.2.0 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Debug $PROJECT/$PROJECT.sln
-  - mono ./testrunner/NUnit.Runners.2.6.4/tools/nunit-console.exe ./$PROJECT/bin/Debug/$PROJECT.exe
+  - chmod +x ./run-tests.sh 
+  - ./run-tests.sh $PROJECT
 
