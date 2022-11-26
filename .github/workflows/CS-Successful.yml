@@ -11,6 +11,9 @@ on:
 
 jobs:
   build:
+    defaults:
+        run:          
+          working-directory: CS-Successful
 
     runs-on: ubuntu-latest
 
