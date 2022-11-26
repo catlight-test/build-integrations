@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet-failed-tests", "dotnet-failed-tests.csproj", "{1521AA6B-4429-4AA9-8F29-4039E84FAA2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1521AA6B-4429-4AA9-8F29-4039E84FAA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1521AA6B-4429-4AA9-8F29-4039E84FAA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1521AA6B-4429-4AA9-8F29-4039E84FAA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1521AA6B-4429-4AA9-8F29-4039E84FAA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
