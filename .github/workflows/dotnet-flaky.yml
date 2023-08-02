@@ -24,5 +24,5 @@ jobs:
     - name: Restore dependencies
       run: dotnet --version
     - name: random step
-      run: if (( RANDOM % 2 )); then exit  0; else exit 1; fi
+      run: if (( GITHUB_RUN_ATTEMPT % 2 )); then exit 1; else exit 0; fi
 
