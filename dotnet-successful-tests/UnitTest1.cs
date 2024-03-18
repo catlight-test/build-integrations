@@ -2,6 +2,7 @@ namespace dotnet_successful_tests;
 
 public class Tests
 {
+    // test change 2
     [SetUp]
     public void Setup()
     {
@@ -17,6 +18,5 @@ public class Tests
     public void Test2()
     {
         Assert.Pass();
-    }
-    
+    } 
 }
